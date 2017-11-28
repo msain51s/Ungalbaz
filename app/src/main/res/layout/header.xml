@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="?attr/actionBarSize">
+
+    <ImageView android:id="@+id/header2"
+        android:layout_width="match_parent"
+        android:background="@drawable/header"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:id="@+id/menuBtn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:clickable="true"
+        android:layout_gravity="right|center_vertical"
+        android:onClick="performMoreOption"
+        android:layout_marginRight="@dimen/more_button_right_margin"
+        android:background="@drawable/selector_more_btn"/>
+
+</FrameLayout>

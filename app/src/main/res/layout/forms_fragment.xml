@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/formMainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/heading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/less_smaller"
+            android:gravity="center"
+            android:text="@string/heading1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/less_medium_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/less_smallest"
+            android:gravity="center"
+            android:text="@string/heading2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/small_text" />
+
+        <TextView
+            android:id="@+id/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/less_smallest"
+            android:gravity="center"
+            android:text="@string/heading3"
+            android:textColor="@color/colorRollover"
+            android:textSize="@dimen/small_text" />
+
+        <LinearLayout
+            android:id="@+id/subMainLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/circle_100"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtPostType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1.0"
+                android:text="@string/form_Type"
+                android:textColor="@color/white"
+                android:textSize="@dimen/small_text" />
+
+            <Spinner
+                android:id="@+id/spinnerFormSelectiona"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:background="@drawable/drop_down"
+                android:popupBackground="@color/colorRollover" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/ungal_Tit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/small_text" />
+
+        <EditText
+            android:id="@+id/editTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="2dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/less_small_text"
+            android:theme="@style/EditTextTheme" />
+
+        <TextView
+            android:id="@+id/txtDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller"
+            android:text="@string/ungal_details"
+            android:textColor="@color/white"
+            android:textSize="@dimen/small_text" />
+
+        <EditText
+            android:id="@+id/editTextDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/less_small_text"
+            android:imeOptions="actionNext"
+            android:theme="@style/EditTextTheme" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainLayout"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:id="@+id/subMainLayoutSahayataType"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/txtShayataType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1.0"
+            android:text="@string/sahayata_Type"
+            android:textColor="@color/white"
+            android:textSize="@dimen/small_text" />
+
+        <Spinner
+            android:id="@+id/spinnerSahayata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingRight="@dimen/smaller"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/drop_down"
+            android:popupBackground="@color/colorRollover"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/subMainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btnProof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/uploadPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true" />
+    </LinearLayout>
+</LinearLayout>

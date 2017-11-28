@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Ungalbazz</string>
+
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="new_user"><u>Register new Ungalbaaz</u></string>
+    <string name="email">UNGELBAAZ EMAIL ID</string>
+    <string name="password">PASSWORD</string>
+    <string name="or">or</string>
+    <string name="login_text"> Login to your account</string>
+    <string name="welcome">WELCOME BACK UNGALBAAZ!</string>
+    <string name="welcomes">WELCOME NEW UNGALBAAZ!</string>
+
+    <string name="empty_message">Please Enter Empty Fields or attach the proof/reference</string>
+
+    <string name="empty_messages">Please Enter Empty Fields</string>
+    <string name="hint_confirmpassword">Confirm Password</string>
+    <string name="hint_newpassword">New Password</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="incorrect_message">Sorry! Please enter valid Email ID</string>
+    <string name="incor_message">Server not responding</string>
+    <string name="invalid_email_message">Please Enter Valid Email</string>
+    <string name="min_char_message">Password Should be 8 or more Characters</string>
+
+
+    <string name="register_text">Create your account</string>
+    <string name="mandatory">All fields are mandatory!</string>
+    <string name="ungalbaaz_Name">UNGALBAAZ NAME</string>
+
+    <string name="recovery_your_account">Enter your valid email ID to recovery your account</string>
+    <string name="not_attach_message">Please attach the proof or reference!</string>
+    <string name="ungal_Tit">UNGAL TITLE</string>
+    <string name="form_Type">FORM TYPE</string>
+
+    <string name="ungal_details">UNGAL DETAIL</string>
+    <string name="sahayata_Type">SAHAYATA TYPE</string>
+    <string name="suggestion_Title">SUGGESTION TITLE</string>
+    <string name="suggestion_Detail">SUGGESTION DETAIL</string>
+    <string name="sahayata_Title">SAHAYATA TITLE</string>
+    <string name="sahayata_Detail">SAHAYATA DETAIL</string>
+    <string name="heading1">UNGALBAAZ!</string>
+    <string name="heading2">Please select the form type and fill all the required details along with helping proof/reference.</string>
+    <string name="heading3">All fields are manadatory!</string>
+
+    <string name="facebook_app_id">371548813267475</string>
+    <string name="facebook_app_secret_id">c2a2b65a62a134e29a115fb147e223db</string>
+
+
+</resources>
